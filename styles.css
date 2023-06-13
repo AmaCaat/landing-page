@@ -151,6 +151,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .quote {
     font-size: 40px;
@@ -166,4 +168,52 @@ body {
 .containerfour {
     display: flex;
     height: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fourbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 200px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+.textfour {
+    margin-left: 15%;
+}
+.fourbutton {
+    margin-right: 15%;
+    background-color: #3882F6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: double;
+    color: white;
+}
+.txtfa {
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 2px;
+}
+.textfb {
+    color: white;
+    font-size: 24;
+    margin: 2px;
+}
+footer {
+    height: 75px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+.footerp {
+    color: white;
 }
