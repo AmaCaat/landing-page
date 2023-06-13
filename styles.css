@@ -100,6 +100,7 @@ body {
     height: 500px;
     justify-content: center;
     align-items: center;
+    background-image: url(./img/background.png);
 
 }
 .twohead {
@@ -107,6 +108,7 @@ body {
     font-weight: bolder;
     text-align: center;
     padding: 10px;
+    color: #1F2937;
 }
 .itemstwo {
     display: flex;
@@ -125,7 +127,7 @@ body {
     height: 200px;
     border-width: 3px;
     background-color: transparent;
-    border-color: #3882F6;
+    border-color: #1F2937;
     border-radius: 10px;
 }
 .spidtext {
@@ -140,7 +142,7 @@ body {
 .containerthree {
     display: flex;
     height: 500px;
-    background-color: #E5E7EB;
+    background-color: #1F2937;
     justify-content: center;
     
 
@@ -151,12 +153,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .quote {
     font-size: 40px;
-    color: #1F2937;
+    color: white;
     font-weight: lighter;
 }
 .quoteend {
@@ -164,12 +166,17 @@ body {
     align-self: flex-end;
     font-size: 30px;
     font-weight: bolder;
+    color: white;
 }
 .containerfour {
     display: flex;
     height: 500px;
     justify-content: center;
     align-items: center;
+    background: url(./img/awr5ryel0d7a1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     
 }
 .fourbox {
@@ -177,17 +184,18 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 1200px;
-    height: 200px;
-    background-color: #3882F6;
-    border-color: #3882F6;
+    height: 150px;
+    background-color: #1F2937;
+    border-color: #1F2937;
     border-radius: 10px;
+    opacity: 90%;
 }
 .textfour {
     margin-left: 15%;
 }
 .fourbutton {
     margin-right: 15%;
-    background-color: #3882F6;
+    background-color: #1F2937;
     padding-top: 5px;
     padding-bottom: 5px;
     width: 100px;
